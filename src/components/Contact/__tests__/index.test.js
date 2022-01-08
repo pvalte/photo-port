@@ -20,14 +20,10 @@ describe('Nav component', () => {
 
 it('renders', () => {
     const { getByTestId } = render(<ContactForm />)
-    expect(getByTestId('contactme')).toHaveTextContent('Contact me')
+    expect(getByTestId('h1tag')).toHaveTextContent('Contact me')
   })
 
-describe('links are visible', () => {
-    it('inserts text into the links', () => {
-      const { getByTestId } = render(<ContactForm />);
-  
-      expect(getByTestId('submit')).toHaveTextContent('Submit');
-    });
-  
+  it('renders', () => {
+    const { getByTestId } = render(<ContactForm />)
+    expect(getByTestId('button')).toHaveTextContent('Submit')
   })

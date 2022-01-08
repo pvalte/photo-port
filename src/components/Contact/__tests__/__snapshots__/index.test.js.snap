@@ -4,7 +4,7 @@ exports[`Nav component matches snapshot 1`] = `
 <DocumentFragment>
   <section>
     <h1
-      data-testid="contactme"
+      data-testid="h1tag"
     >
       Contact me
     </h1>
@@ -47,7 +47,7 @@ exports[`Nav component matches snapshot 1`] = `
         />
       </div>
       <button
-        data-testid="submit"
+        data-testid="button"
         type="submit"
       >
         Submit
